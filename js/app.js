@@ -90,3 +90,29 @@ alias8.setAttribute("id", "alias8")
 //Final Boss
 /*9. Without modifying the HTML file, create your own profile.*/
 
+var myName = document.createElement("div");
+myName.innerHTML = "Rikardo";
+document.getElementsByClassName('block3 col-sm-4')[2].appendChild(myName);
+myName.setAttribute("id", "name9")
+
+document.getElementsByClassName("block3 col-sm-4")[2].childNodes[0].src = "http://pixel.nymag.com/imgs/daily/vulture/2015/10/20/drake-dance/drake-10.w529.h352.gif";
+
+
+var mePosition = document.createElement("div");
+mePosition.innerHTML = "Mememaster";
+document.getElementsByClassName('block3 col-sm-4')[2].appendChild(mePosition);
+mePosition.setAttribute("id","position9")
+
+
+var meAlias = document.createElement("div");
+meAlias.innerHTML = "John Travolta";
+document.getElementsByClassName('block3 col-sm-4')[2].appendChild(meAlias);
+meAlias.setAttribute("id", "alias9")
+
+
+
+var meBio = document.createElement("div");
+meBio.innerHTML = '"C A N T"';
+
+document.getElementsByClassName('block3 col-sm-4')[2].appendChild(meBio);
+meBio.setAttribute("id", "bio9")
